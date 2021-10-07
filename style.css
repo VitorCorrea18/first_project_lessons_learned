@@ -1,3 +1,17 @@
 body {
     background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+    position: fixed;
+    top: 0%;
+    background-color: green;
+    left: 20%;
+    width: 800px;
+}
+
+#titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
