@@ -72,3 +72,10 @@ body {
   position: fixed;
   top: 5%;
 }
+
+#githublogo {
+  width: 100px;
+  position: fixed;
+  top: 4%;
+  left: 115px;
+}
