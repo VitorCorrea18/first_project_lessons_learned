@@ -54,3 +54,15 @@ body {
   top: 250px;
   right: 320px;
 }
+
+#rodape {
+  position: fixed;
+  left: 30%;
+  bottom: 0%;
+  width: 600px;
+}
+
+#creditos {
+  font-size: 15px;
+  text-align: center;
+}
