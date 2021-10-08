@@ -46,14 +46,14 @@ body {
   padding: 5px 30px;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   
   position: fixed;
   top: 120px;
   left: 310px;
 }
 
-#lado-direito {
+.lado-direito {
   position: relative;
   width: 600px;
   left: 580px;
