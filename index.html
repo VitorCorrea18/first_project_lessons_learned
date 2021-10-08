@@ -12,47 +12,56 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Project Lessons Learned - Trybe</h1>
+    <nav id="navegacao">
+      <ul>
+      <a href="www.google.com" target="_blank"><li>Sobre</li></a>
+      <a href="www.google.com" target="_blank"><li>Inicio</li></a>
+      </ul>
+    </nav>
   </header>
 
   <img id="minha_foto" src="imagens/minha-foto.JPG" alt="Minha foto">
   <p id="meu-nome">Vitor Correa</p>
+
   <a href="https://www.linkedin.com/in/vitorcorrea18/" target="_blank">
     <img id="linkedinlogo" src="/imagens/images.png" alt="Linkedin Logo"></a>
   <a href="https://github.com/VitorCorrea18" target="_blank">
     <img id="githublogo" src="/imagens/github.png" alt="GitHub Logo"></a>
 
   <main>
-    <section>
-      <h2 id="learned">Lições Aprendidas</h2>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>HTML Semântico</li>
-        <li>Gerenciar o Tempo</li>
-        <li>Dar feedback</li>
-        <li>Empatia</li>
-        <li>Persistencia</li>
-      </ol>
+    <section id="lado-esquerdo">
+      <table>
+        <h2 id="learned">Lições Aprendidas</h2>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>HTML Semântico</li>
+          <li>Gerenciar o Tempo</li>
+          <li>Dar feedback</li>
+          <li>Empatia</li>
+          <li>Persistencia</li>
+        </ol>
+      </table>
+      <table>
+        <h2 id="to-be-learned">Lições a Aprender</h2>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Forms</li>
+          <li>CSS Responsive</li>
+          <li>ES6</li>
+          <li>HOF</li>
+          <li>Unit Tests</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
+        </ul>
+      </table>
     </section>
-    <section>
-      <h2 id="to-be-learned">Lições a Aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
-    </section>
-    <article id="artigo">
+    <article id="lado-direito">
       <h3>Artigo</h3>
       <p>Minha jornada na Trybe mal começou e já aprendi muito. Não sabia nada
         de Git e muito menos de HTML. E estou aqui, em 3 semanas construindo
@@ -77,8 +86,6 @@
       Feito por <b>Vitor Correa</b>, durante os estudos na <b>Trybe</b>.
     </p>
   </footer>
-
-
 </body>
 
 </html>
